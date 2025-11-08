@@ -90,8 +90,8 @@ ul li a:hover{
         cursor: pointer;
     }
 .btn:hover{
-    color: chocolate;
-    background: gold;
+    color: rgb(255, 255, 255);
+    background: rgb(132, 112, 2);
 }
 .btn:focus{
         outline: none;
@@ -107,17 +107,17 @@ ul li a:hover{
         height: auto;
     }
 .content .par{
-     padding-left: 20px;
+     padding-left: 32px;
      padding-bottom: 25px;
      font-family: 'Times New Roman';
      letter-spacing: 1.1px;
      line-height: 30px;
     }
 .content h1{
-        font-size: 50px;
+        font-size: 60px;
         font-family: 'Times New Roman';
         padding-left: 20px;
-        margin-top: 9%;
+        margin-top: 80px;
         letter-spacing: 1.7px;
     }
 .content .cn{
@@ -132,6 +132,7 @@ ul li a:hover{
         cursor: pointer;
         margin-bottom: 10px;
         transition: .4s ease;
+        margin-top: 15px;
     }
 .content .cn a{
         text-decoration: none;
@@ -228,20 +229,25 @@ ul li a:hover{
     padding-top: 15px;
     padding-bottom: 10px;
     text-align: center;
+    color: rgb(45, 41, 41);
+
 
 }
 .icon a{
     text-decoration: none;
     color: azure;
+    
 }
 .icon ion-icon{
-    color: rgb(243, 239, 204);
+    color: rgb(242, 76, 76);
     font-size: 20px;
     padding-left: 16px;
     padding-top: 2px;
     transition: .3s ease;
+
    
 }
 .icon ion-icon:hover{
-    color: rgb(230, 150, 1);
+    color: rgb(240, 164, 22);
+
 }
